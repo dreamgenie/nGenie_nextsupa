@@ -22,9 +22,8 @@ const config: Config = {
           foreground: "hsl(var(--popover-foreground))",
         },
         primary: {
-          DEFAULT: "#855ad1",
-          light: "#c580ff",
           DEFAULT: "hsl(var(--primary))",
+          light: "#c580ff",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -95,6 +94,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 }
 export default config
+
