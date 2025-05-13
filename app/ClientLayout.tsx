@@ -57,7 +57,7 @@ export default function ClientLayout({
 
           {/* Left Sidebar */}
           <div
-            className={`bg-primary flex flex-col ${
+            className={`bg-primary-light flex flex-col ${
               isMobile
                 ? `fixed h-full z-50 transition-transform duration-300 ease-in-out ${
                     isMobileMenuOpen ? "w-4/5 translate-x-0" : "w-0 -translate-x-full"
